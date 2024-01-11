@@ -14,7 +14,7 @@ import {
   query,
   limit,
 } from "./firebase";
-import { LogOut, MessageCircleMore, MessageCircleHeart } from 'lucide-react';
+import { LogOut, MessageCircleMore, MessageCircleHeart, SendHorizontal } from 'lucide-react';
 
 
 import "./App.css";
@@ -93,7 +93,7 @@ function ChatRoom() {
         />
 
         <button type="submit" disabled={!formValue}>
-          🕊️
+        <SendHorizontal />
         </button>
       </form>
     </>
